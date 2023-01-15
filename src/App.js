@@ -7,10 +7,11 @@ class App extends Component {
     termino : 'Café'
   }
 
-
   datosBusqueda = (termino) => {
-    console.log(termino);
-  }
+    this.setState({
+      termino
+  })
+}
   render() { 
   return (
     <div className="app container">
