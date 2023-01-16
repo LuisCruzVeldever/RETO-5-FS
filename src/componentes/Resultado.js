@@ -9,7 +9,7 @@ class  Resultado extends Component {
 
         if(imagenes.length === 0) return null;
 
-        console.log(imagenes);
+        //console.log(imagenes);
 
         return (
 
