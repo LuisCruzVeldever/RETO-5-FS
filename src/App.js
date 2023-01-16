@@ -9,6 +9,14 @@ class App extends Component {
     imagenes : []
   }
 
+  paginaAnterior = () => {
+    console.log('anterior...');
+  }
+
+  paginaSiguiente = () => {
+    console.log('siguiente...')
+  }
+
   consultarApi = () => {
     const termino = this.state.termino;
 
@@ -23,7 +31,8 @@ class App extends Component {
 
   datosBusqueda = (termino) => {
     this.setState({
-      termino
+      termino : termino,
+      pagina : 1
   }, () => {
     this.consultarApi();
   })
@@ -37,10 +46,14 @@ class App extends Component {
         datosBusqueda={this.datosBusqueda}
         />
       </div>
-     <Resultado 
-     imagenes={this.state.imagenes}
+      <div className="row justify-content-center">
+      <Resultado 
+      imagenes={this.state.imagenes}
+      paginaAnterior={this.paginaAnterior}
+      paginaSiguiente={this.paginaSiguiente}
+      />
+     </div>
      
-     />
     </div>
   );
 }
