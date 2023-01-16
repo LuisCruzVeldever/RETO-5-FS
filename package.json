@@ -2,7 +2,7 @@
   "name": "reto-5-fs",
   "version": "0.0.1",
   "private": true,
-  "homepage": "http://LuisCruzVeldever.github.io/reto-5-fs",
+  "homepage": "https://LuisCruzVeldever.github.io/reto-5-fs",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
@@ -60,12 +60,12 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
