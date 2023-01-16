@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reto-5-fs/static/css/main.e6c13ad2.css",
+    "main.js": "/reto-5-fs/static/js/main.c8dc471a.js",
+    "static/js/787.6a8c3faa.chunk.js": "/reto-5-fs/static/js/787.6a8c3faa.chunk.js",
+    "index.html": "/reto-5-fs/index.html",
+    "main.e6c13ad2.css.map": "/reto-5-fs/static/css/main.e6c13ad2.css.map",
+    "main.c8dc471a.js.map": "/reto-5-fs/static/js/main.c8dc471a.js.map",
+    "787.6a8c3faa.chunk.js.map": "/reto-5-fs/static/js/787.6a8c3faa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c8dc471a.js"
+  ]
+}
