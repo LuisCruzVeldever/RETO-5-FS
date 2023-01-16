@@ -91,6 +91,7 @@ class App extends Component {
       imagenes={this.state.imagenes}
       paginaAnterior={this.paginaAnterior}
       paginaSiguiente={this.paginaSiguiente}
+      
       />
      </div>
      
